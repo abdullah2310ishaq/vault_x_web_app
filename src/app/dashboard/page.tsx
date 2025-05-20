@@ -13,7 +13,7 @@ export default function Dashboard() {
             description="Pending resident approvals"
             href="/dashboard/approvals"
           />
-          <DashboardCard title="Vehicles" description="Vehicles entered today" href="/dashboard/vehicles" />
+
           <DashboardCard title="Guests" description="Guests registered today" href="/dashboard/guests" />
           <DashboardCard title="Employees" description="Manage society employees" href="/dashboard/employees" />
           <DashboardCard title="Users" description="Approved residents" href="/dashboard/users" />

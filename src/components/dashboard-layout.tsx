@@ -95,12 +95,7 @@ function SidebarContent({ handleLogout }: { handleLogout: () => void }) {
           text="Approvals"
           isActive={pathname === "/dashboard/approvals"}
         />
-        <SidebarLink
-          href="/dashboard/vehicles"
-          icon={<Car className="h-5 w-5" />}
-          text="Vehicles"
-          isActive={pathname === "/dashboard/vehicles"}
-        />
+       
         <SidebarLink
           href="/dashboard/guests"
           icon={<UserPlus className="h-5 w-5" />}

@@ -102,17 +102,9 @@ export default function SocietyPage() {
               onCancel={() => setShowRegistrationForm(false)}
             />
           ) : society ? (
-            <div className="relative rounded-lg bg-gradient-to-r from-brown-100 to-brown-50 p-8 shadow-md">
+            <div className="relative rounded-lg  p-8 ">
               <div className="absolute right-4 top-4">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="rounded-full bg-white px-4 text-brown-600 hover:bg-brown-50"
-                  onClick={() => setShowRegistrationForm(true)}
-                >
-                  <Edit className="mr-2 h-4 w-4" />
-                  EDIT
-                </Button>
+                
               </div>
 
               <div className="mx-auto max-w-3xl text-center">
